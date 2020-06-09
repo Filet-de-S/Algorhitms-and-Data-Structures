@@ -2,3 +2,6 @@
 Algorithms/testdataINTS
 .DS_Store
 input.txt
+test.go
+appendVSbuffer_test.go
+append_knowledge.go
