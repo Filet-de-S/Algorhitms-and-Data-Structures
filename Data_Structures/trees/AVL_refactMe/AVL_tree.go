@@ -1,4 +1,4 @@
-package DataStructures
+package AVL_refactMe
 
 import (
 	"errors"
@@ -94,7 +94,7 @@ func main() {
 //	}
 //}
 //
-//func (n *AVL) Pop(key int) (*Node, error) {
+//func (n *AVL_refactMe) Pop(key int) (*Node, error) {
 //	if n.root == nil {
 //		return nil, errors.New("404 not found")
 //	}
@@ -258,7 +258,7 @@ func (n *AVL) WalkLive(ch chan<- *Node) {
 	close(ch)
 }
 
-//func (n *AVL) InsertIT(data string) {
+//func (n *AVL_refactMe) InsertIT(data string) {
 //	if n.root == nil {
 //		n.root = n.root.newNode(data)
 //		return

@@ -1,7 +1,7 @@
 package main
 
 import (
-	pqHeap "../Data_Structures/bin_heap_eq_priority_queue"
+	pqHeap "../Data_Structures/priority_queue(bin_heap)"
 	unDirGraph "../Data_Structures/graph/undirected"
 	"errors"
 	"testing"
